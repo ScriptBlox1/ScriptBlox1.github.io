@@ -14,13 +14,16 @@ body {
 
 /* Theme Colors */
 :root {
-  --text-color-dark: #98FF98;
-  --button-bg-dark: #98FF98;
-  --button-hover-bg-dark: #98FF98;
-  --input-bg-dark: #98FF98;
-  --input-border-dark: #98FF98;
-  --input-focus-border-dark: #4d52ff;
-  --shadow-dark: rgba(152, 255, 152, 100);
+  --text-color-dark: #98FF98; /* Light green text color for dark mode */
+  --button-bg-dark: #98FF98; /* Light green button background for dark mode */
+  --button-hover-bg-dark: #98FF98; /* Light green button hover background for dark mode */
+  --input-bg-dark: #98FF98; /* Light green input background for dark mode */
+  --input-border-dark: #98FF98; /* Light green input border for dark mode */
+  --input-focus-border-dark: #4d52ff; /* Focus border color */
+  --shadow-dark: rgba(152, 255, 152, 0.5); /* Light green shadow for dark mode */
+  --bg-color-dark: #333; /* Dark background color for dark mode (add this variable) */
+  --container-bg-dark: #444; /* Dark background for containers */
+  --form-bg-dark: #555; /* Dark background for forms */
 }
 
 /* Dark Theme */
@@ -126,7 +129,7 @@ body.dark-mode {
   transition: transform 0.3s ease-in-out, background 0.3s, box-shadow 0.3s;
   display: flex;
   flex-direction: column;
-  color: var(--text-color);
+  color: var(--text-color); /* This should now be #98FF98 in dark mode */
 }
 
 .script-card:hover {

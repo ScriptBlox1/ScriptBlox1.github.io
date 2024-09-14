@@ -14,19 +14,19 @@ body {
 
 /* Theme Colors */
 :root {
-  --text-color-light: #ffffff;
+  --text-color-dark: #ffffff;
   --button-bg-dark: #333333;
   --button-hover-bg-dark: #1c1c21;
   --input-bg-dark: #333;
   --input-border-dark: #555;
   --input-focus-border-dark: #4d52ff;
-  --shadow-dark: rgba(255, 255, 255, 0.1);
+
 }
 
 /* Dark Theme */
 body.dark-mode {
   --bg-color: var(--bg-color-dark);
-  --text-color: var(--text-color-light);
+  --text-color: var(--text-color-dark);
   --container-bg: var(--container-bg-dark);
   --button-bg: var(--button-bg-dark);
   --button-hover-bg: var(--button-hover-bg-dark);

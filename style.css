@@ -14,7 +14,7 @@ body {
 
 /* Theme Colors */
 :root {
-  --text-color-dark: #ffffff;
+  --text-color-light: #ffffff;
   --button-bg-dark: #333333;
   --button-hover-bg-dark: #1c1c21;
   --input-bg-dark: #333;
@@ -26,7 +26,7 @@ body {
 /* Dark Theme */
 body.dark-mode {
   --bg-color: var(--bg-color-dark);
-  --text-color: var(--text-color-dark);
+  --text-color: var(--text-color-light);
   --container-bg: var(--container-bg-dark);
   --button-bg: var(--button-bg-dark);
   --button-hover-bg: var(--button-hover-bg-dark);

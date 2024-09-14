@@ -15,10 +15,10 @@ body {
 /* Theme Colors */
 :root {
   --text-color-dark: #98FF98;
-  --button-bg-dark: #333333;
-  --button-hover-bg-dark: #1c1c21;
-  --input-bg-dark: #333;
-  --input-border-dark: #555;
+  --button-bg-dark: #98FF98;
+  --button-hover-bg-dark: #98FF98;
+  --input-bg-dark: #98FF98;
+  --input-border-dark: #98FF98;
   --input-focus-border-dark: #4d52ff;
   --shadow-dark: rgba(152, 255, 152, 100);
 }

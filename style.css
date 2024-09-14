@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #FF16151D;
+  background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
   transition: background-color 0.3s, color 0.3s;
@@ -14,18 +14,16 @@ body {
 
 /* Theme Colors */
 :root {
-  --bg-color-light: #f0f0f0;
   --text-color-light: #333;
   --container-bg-light: #fff;
   --button-bg-light: #3498db;
-  --button-hover-bg-light: #2980b9;
-  --form-bg-light: #f5f5f5;
-  --input-bg-light: #fff;
-  --input-border-light: #ccc;
-  --input-focus-border-light: #3498db;
-  --shadow-light: rgba(0, 0, 0, 0.1);
+  --button-hover-bg-light: #4c31d3;
+  --form-bg-light: #262836;
+  --input-bg-light: #333;
+  --input-border-light: #555;
+  --input-focus-border-dark: #4d52ff;
+  --shadow-light: rgba(255, 255, 255, 0.1);
 
-  --bg-color-dark: #1c1c21;
   --text-color-dark: #ffffff;
   --container-bg-dark: #23232e;
   --button-bg-dark: #4d52ff;

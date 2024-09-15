@@ -17,11 +17,38 @@ body {
   --text-color-dark: #ffffff;
   --button-bg-dark: #333333;
   --button-hover-bg-dark: #1c1c21;
-  --input-bg-dark: #333;
+  --input-bg-dark: #333333;
   --input-border-dark: #555;
   --input-focus-border-dark: #4d52ff;
+  --form-bg-dark: #16151D;
   --shadow-dark: rgba(255, 255, 255, 0.1);
-  --container-bg-dark: #98FF98;
+  --container-bg-dark: #333333;
+  --bg-color-dark: #16151D;
+  
+  --form-bg-light: #16151D;
+  --bg-color-light: #16151D;
+  --text-color-light: #ffffff;
+  --container-bg-light: #333333;
+  --button-bg-light: #333333;
+  --button-hover-bg-light: #1c1c21;
+  --input-bg-light: #333333;
+  --input-border-light: #555;
+  --input-focus-border-light:  #4d52ff;
+  --shadow-light: rgba(255, 255, 255, 0.1);
+}
+
+/* Light Theme */
+body.light-mode {
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+  --container-bg: var(--container-bg-light);
+  --button-bg: var(--button-bg-light);
+  --button-hover-bg: var(--button-hover-bg-light);
+  --form-bg: var(--form-bg-light);
+  --input-bg: var(--input-bg-light);
+  --input-border: var(--input-border-light);
+  --input-focus-border: var(--input-focus-border-light);
+  --shadow: var(--shadow-light);
 }
 
 /* Dark Theme */

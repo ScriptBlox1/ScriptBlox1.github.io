@@ -22,13 +22,13 @@ body {
   --input-focus-border-dark: #4d52ff;
   --form-bg-dark: #16151D;
   --shadow-dark: rgba(255, 255, 255, 0.1);
-  --container-bg-dark: #333333;
+  --container-bg-dark: #16151D;
   --bg-color-dark: #16151D;
   
   --form-bg-light: #16151D;
   --bg-color-light: #16151D;
   --text-color-light: #ffffff;
-  --container-bg-light: #333333;
+  --container-bg-light: #16151D;
   --button-bg-light: #333333;
   --button-hover-bg-light: #1c1c21;
   --input-bg-light: #333333;

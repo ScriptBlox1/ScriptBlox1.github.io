@@ -21,7 +21,7 @@ body {
   --input-border-dark: #555;
   --input-focus-border-dark: #4d52ff;
   --form-bg-dark: #16151D;
-  --shadow-dark: rgba(255, 255, 255, 0.1);
+
   --container-bg-dark: #16151D;
   --bg-color-dark: #16151D;
   
@@ -34,7 +34,7 @@ body {
   --input-bg-light: #333333;
   --input-border-light: #555;
   --input-focus-border-light:  #4d52ff;
-  --shadow-light: rgba(255, 255, 255, 0.1);
+
 }
 
 /* Light Theme */
